@@ -12,6 +12,11 @@ body{
 .navbar-brand img{
     width: 110px;
 }
+.vrmas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .navbar-dark .navbar-toggler{
    background-color: #ff595a;
 }
