@@ -1,0 +1,265 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.all-sect{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nav-link{
+    color: black !important;
+}
+.navbar-brand img{
+    width: 110px;
+}
+.navbar-dark .navbar-toggler{
+   background-color: #ff595a;
+}
+.modal-title span{
+    color: #2a7de1;
+}
+.modal-title{
+    font-weight: bold;
+}
+.modal-body{
+    background-color: #b7c3f3;
+}
+.form-label{
+    font-weight: 600;
+}
+.btn-color-personalizado{
+    background-color: #ff595a !important;
+    color: #fff !important;
+}
+.card-header{
+    background-color: transparent !important;
+}
+.lgn{
+    padding: 0.5em 1.2em !important;
+    background-color: #2a7de1;
+    border-radius: 0.5em;
+    color: #fff !important;
+}
+.lgn2{
+    padding: 0.5em 1.2em !important;
+    background-color: #ff595a;
+    border-radius: 0.5em;
+    color: #fff !important;
+}
+.ctr{
+    border: 2px dashed #2a7de1 !important;
+    margin-bottom: 1em;
+}
+.ctr2{
+    border: 2px dashed #ff595a !important;
+    margin-bottom: 1em;
+}
+.lgn:hover{
+    opacity: 0.9;
+}
+.bluepc{
+    color: #2a7de1 !important;
+}
+.yeltr{
+    color: #ffd32a ;
+}
+.active-redpc{
+    color: #ff595a !important;
+}
+nav ul li{
+    font-weight: 500;
+}
+.imgwt{
+    height: 100%;
+}
+.imgwt img{
+    height: 210px;
+}
+.top-sect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bottom-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right-side{
+    padding: 2em 0em;
+}
+.cgry{
+    width: 20% !important;
+  border: 1px solid #2a7de1 !important;
+  opacity: 0.6;
+}
+/* Left Side */
+.left-side{
+    width: 90%;
+    margin: 1em;
+}
+img{
+    object-fit: cover !important;
+}
+/* Right Side */
+.right-side{
+    background-color: #EAEAEA;
+}
+.col-area-de-publicidad{
+    display: none;
+}
+
+
+.bg-color-personalizado{
+    background-color: #fff !important;
+}
+.col-links ul{
+    list-style: none;
+}
+.col-links ul li a {
+    text-decoration: none;
+    color: black;
+}
+.col-links ul li a:hover{
+    color: #404e5c;
+}
+/* Modal Sub */
+.botones-modal{
+    display: flex;
+    justify-content: flex-end;
+}
+.Suscribirse{
+    margin-left: 5px;
+}
+
+/* End Modal Sub */
+
+/* Media Queries */
+@media screen and (min-width:700px){
+    .cgry{
+        display: none;
+    }
+    .icon{
+        font-size: 1.4em !important;
+        margin: 3px 30px;
+    }
+    .sobrenosotros h4{
+        font-size: 0.2em;
+    }
+    .imgwt img{
+        height: 450px;
+    }
+    .ctr{
+        width: 32rem !important;
+    }
+    .ctr2{
+        width: 36rem !important;
+    }
+    .card-header{
+        font-size: 1.4em;
+    }
+    .box a img{
+        width: 170px !important;
+    }
+}
+@media screen and (min-width:1000px){
+.btn-secondary:hover{
+    background-color: #404e5c;
+    transition: .5s;
+}
+    .ctr2{
+        width: 20rem !important;
+    }
+    .cgry{
+        display: none;
+    }
+    .navbar-brand img{
+        width: 120px;
+    }
+    .imgwt{
+        height: 70vh;
+    }
+    .left-side{
+        width: 70vw;
+        padding: 1%;
+        height: 100%;
+    }
+    .col-area-de-publicidad{
+        display: block;
+    }
+    .img-publicidad img{
+        width: 100%;
+    }
+    h1{
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+    .all-sect{
+        width: 100%;
+        margin-top: 2em;
+        display: flex;
+        flex-direction: row;
+    }
+    .right-side{
+        width: 20vw;
+        display: flex;
+        flex-direction: column;
+        margin-right: 1em;
+    }
+    .top-sect{
+        width: 100%;
+        height: 60%;
+        display: flex;
+        justify-content: center;
+    }
+    .bottom-side{
+        width: 100%;
+        display: flex;
+        flex-direction: row !important;
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+    .card{
+        margin: 0.3em;
+    }
+    .imgwt img{
+        height: 650px;
+    }
+    .card-title{
+        font-size: 1.6em;
+        font-weight: 700;
+    }
+    /* .pie-pagina{
+        height: 24vh;
+    } */
+    .txt-sb{
+        margin-top: 1.4em;
+    }
+    .red-social{
+        margin-top: 2em;
+    }
+    /* .grupo-1 .box img{
+        width:75%;
+    } */
+    .col-area-de-publicidad{
+        padding: 5em 0em;
+    } 
+    .input-group{
+        margin-top: 2.4em;
+    }
+    .col-links{
+        margin-top: 2em;
+    }
+    
+}
+
+@media screen and (min-width:1590px){
+    .card{
+        width: 28em !important;
+    }
+    /* .sobrenosotros{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } */
+}

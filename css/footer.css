@@ -1,0 +1,89 @@
+/* !FOOTER */
+
+.pie-pagina{
+    width: 100%;
+    background-color: #ff595a;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    padding: 15px 10px;
+    justify-content: space-evenly;
+}
+.card-header{
+    text-align: center;
+    font-weight: bold;
+}
+.box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pie-pagina .grupo-1 .box img{
+    width: 130px;
+}
+h4{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 1.8em !important;
+}
+.pie-pagina .sobrenosotros p{
+    text-align: center;
+    color: #efefef;
+    font-size: 0.75em;
+    width: 100%;
+    margin-bottom: 0;
+}
+.red-social i{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    color: white;
+    margin-right: 5px;
+    text-align: center;
+}
+.icon{
+    font-size: 2em;
+    margin: 3px 30px;
+}
+.red-social{
+    position: relative;
+    left: -25px;
+}
+.red-social i:hover{
+    color: #2a7de1;
+}
+.pie-pagina .grupo-2{
+    background-color: #ff595a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #efefef;
+    width: 100%;
+    margin: 0;
+}
+.grupo-2 small{
+    font-size: 15px;
+}
+
+/* !AQUI TERMINA EL FOOTER */
+@media screen and (min-width:700px){
+    .cgry{
+        display: none;
+    }
+    .icon{
+        font-size: 1.4em !important;
+        margin: 3px 30px;
+    }
+    .sobrenosotros h4{
+        font-size: 1.7em !important;
+        text-align: center;
+    }
+    .sobrenosotros p{
+        font-size: 1em;
+    }
+    
+}

@@ -1,0 +1,63 @@
+/*  COMIENZA GALERIA  */
+
+.main-conteiner{
+    width: 100%;
+}
+.row{
+    width: 100% !important;
+}
+.conteiner{
+    background-color: #cf1259;
+    color: #cf1259;
+}
+.title-gallery{
+    font-weight: 600;
+    font-size: 1.2em;
+    color: #fff;
+    padding: px;
+}
+
+.gallery-image{
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    border-radius: .5rem;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.more-image{
+    width: 100%;
+    height: 450px;
+    background-color: #cf1259;
+    border-radius: .5rem;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+.more-image:hover{
+    transition: .3s;
+    opacity: .7;
+}
+.mejor-actor{
+    background-image: url("../img/galeria/5.webp");
+}
+.actriz{
+    background-image: url("../img/galeria/7.jpg");
+}
+.animada{
+    background-image: url("../img/galeria/6.jpg");
+}
+.pelicula{
+    background-image: url("../img/galeria/2.jpg");
+}
+.sonido{
+    background-image: url("../img/galeria/1.jpeg");
+}
+.vestuario{
+    background-image: url("../img/galeria/cruella.jpg");
+}
+

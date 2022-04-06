@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <!-- css bts -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/65f910a2bd.js" crossorigin="anonymous"></script>
+    <title>Contacto - La Magia Del Cine</title>
+</head>
+<body>
+    
+  <nav class="navbar navbar-expand-lg navbar-dark bg-color-personalizado sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="img/logob3.png" id="logo-nav" alt="logo-header"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html"><i class="fa-solid fa-house bluepc"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about-us.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="galeria.html"> Galeria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active-redpc" href="contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" type="button" class="btn btn-transparent btn-md  " data-bs-toggle="modal"
+              data-bs-target="#modalSub">
+              Suscribete </a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link lgn" href="login.html" id="login-bt"><i class="fa-solid fa-user"></i> Login</a>
+        </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+      <main>
+        <section class="sec-all">
+            
+            <div class="top-side">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14240.408879082126!2d-65.2072018!3d-26.8367009!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1sen!2sar!4v1649170502901!5m2!1sen!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p><i class="fa-solid fa-location-dot"></i> Gral. Paz 576, San Miguel de Tucumán, Tucumán.</p>
+                <ul>
+                    <li><a href="error404.html"><i id="fb" class="fa-brands fa-facebook-square icon"></i></a>
+                    <li><a href="error404.html"><i id="ig" class="fa-brands fa-instagram icon"></i></a></li>
+                    <li><a href="error404.html"><i id="tw" class="fa-brands fa-twitter-square icon"></i></a></li>
+                    <li><a href="error404.html"><i id="yt" class="fa-brands fa-youtube-square icon"></i></a></li></li>
+                </ul>
+            </div>
+            <div class="bttom-side">
+                <h1>Dejanos un Mensaje</h1>
+                <form class="form-lt" action="">
+                   <label for="nombre">Nombre</label>
+                   <input type="text" name="nombre" id="nombre" required>
+                   <label for="apellido">Apellido</label>
+                   <input type="text" name="apellido" id="apellido" required>
+                   <label for="email">Email</label>
+                   <input type="email" name="email" id="email" required>
+                   <label for="celular">Celular</label>
+                   <input type="number" name="phone" id="phone" required>
+                   <textarea name="txtar" id="txtar" placeholder="Dejar un mensaje" cols="30" rows="10" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+                
+            </div>
+            
+                <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Recuperar Contrase;a</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                    <div class="modal-body">
+                        <form action="">
+                            <p>Por favor ingresa tu correo, para recuperar tu contrase;a</p>
+                            <input type="email" name="" id="" required><br>
+                            <button type="submit">Enviar</button>
+                        </form>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </main>
+<!-- Modal -->
+<div class="modal fade" id="modalSub" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel"> <span>SUS</span>CRIPCÍON</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+      <div class="modal-body">
+            <div class="conteinerform">
+              <div class="row">
+                  <div class="col">
+                      <form class="row g-3 needs-validation" novalidate>
+                          <div class="col-md-4">
+                              <label for="nombre" class="form-label">Nombre</label>
+                              <input type="text" class="form-control" minlength="8" maxlength="12" id="nombre" name="nombre" required>
+                          </div>
+                          <div class="col-md-4">
+                              <label for="nombre" class="form-label">Apellido</label>
+                              <input type="text" class="form-control" minlength="8" maxlength="12" id="apellido" name="apellido" required>
+                          </div>
+                          <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
+                              <input type="email" class="form-control" minlength="8" maxlength="30" id="exampleInputEmail1" aria-describedby="emailHelp" required> 
+                              <div id="emailHelp" class="form-text">Nunca compartiremos su correo electronico. </div>
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                              <input type="password" class="form-control" minlength="8" maxlength="12" id="exampleInputPassword1" required>
+                            </div>
+                            <div class="botones-modal">
+                                <button type="button"   class="btn btn-light  Cerrar" data-bs-dismiss="modal">Cerrar</button>
+                                <button type="submit" class="btn btn-light  Suscribirse" >Suscribirse</button>
+                            </div>
+                      </form>
+                  </div>
+              </div>
+            </div>
+      </div>
+     </div>
+  </div>
+</div>
+
+<!-- End Modal -->
+    </main>
+    <!-- !AQUI EMPIEZA EL FOOTER -->
+    <footer class="pie-pagina">
+      <div class="grupo-1 row">
+          <div class="box col-12 col-md-3 ">
+              <figure>
+                  <a href="index.html">
+                      <img src="img/logo-footer.png" alt="Logo Magia del cine">
+                  </a>
+              </figure>
+          </div>
+          <hr class="cgry">
+          <div class="box col-12 col-md-3 sobrenosotros ">
+              <h4>Sobre Nosotros</h4>
+              <P>Un espacio para compartir la magia del cine.</P>
+              <P>Pequeñas reseñas de películas y series, hechas por alguien que ama el cine.</P>
+          </div>
+          
+          <div class="box col-12 col-md-3 ">
+          <hr class="cgry">
+              <h4>Siguenos</h4>
+              <div class="red-social">
+                  <a href="error404.html"><i class="fa-brands fa-facebook-square icon"></i></a>
+                  <a href="error404.html"><i class="fa-brands fa-instagram icon"></i></a>
+                  <a href="error404.html"><i class="fa-brands fa-twitter-square icon"></i></a>
+                  <a href="error404.html"><i class="fa-brands fa-youtube-square icon"></i></a>
+              </div>
+          </div>
+      </div>
+      <div class="grupo-2 row">
+          <small> &copy; 2022 RollingCode - Todos los Derechos Reservados.</small>
+      </div>
+  </footer>
+
+  <!-- Script Validaciones Subscribite -->
+  <script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+  (function () {
+  'use strict'
+  
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  var forms = document.querySelectorAll('.needs-validation')
+  
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+  .forEach(function (form) {
+  form.addEventListener('submit', function (event) {
+  if (!form.checkValidity()) {
+  event.preventDefault()
+  event.stopPropagation()
+  }
+  
+  form.classList.add('was-validated')
+  }, false)
+  })
+    })()
+    </script>
+    <!-- Script Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
