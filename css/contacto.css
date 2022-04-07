@@ -69,7 +69,11 @@ form{
     color: black;
 }
 .bttom-side form input{
-    border: 2px solid #4f6272;
+    border-radius: 0.3em;
+}
+.bttom-side form button{
+    background-color: #ff595a;
+    color: #Fff;
     border-radius: 0.3em;
 }
 .bttom-side textarea{

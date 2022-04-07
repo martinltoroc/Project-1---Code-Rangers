@@ -220,7 +220,7 @@ img{
     .bottom-side{
         width: 100%;
         display: flex;
-        flex-direction: row !important;
+        flex-direction: row;
         flex-wrap:wrap;
         justify-content: center;
     }
@@ -234,18 +234,12 @@ img{
         font-size: 1.6em;
         font-weight: 700;
     }
-    /* .pie-pagina{
-        height: 24vh;
-    } */
     .txt-sb{
         margin-top: 1.4em;
     }
     .red-social{
         margin-top: 2em;
     }
-    /* .grupo-1 .box img{
-        width:75%;
-    } */
     .col-area-de-publicidad{
         padding: 5em 0em;
     } 
@@ -262,9 +256,4 @@ img{
     .card{
         width: 28em !important;
     }
-    /* .sobrenosotros{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    } */
 }

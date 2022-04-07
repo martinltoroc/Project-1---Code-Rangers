@@ -48,6 +48,7 @@ body{
  .modal-body{
      background-color: #b7c3f3;
  }
+ 
 /*** Bottom Side ***/
 .bottom-side{
     width: 100%;
@@ -202,9 +203,9 @@ form input{
         font-size: 15px;
     }
 
-@media screen and  (min-width: 2560px){
+@media screen and (min-width: 2560px){
     .top-side img{
         width: 85%;
         height: 870px;
     }
-}
+    }
